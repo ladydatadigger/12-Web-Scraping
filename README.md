@@ -5,7 +5,7 @@ Build a web application that scrapes various websites for data related to the Mi
 
 Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
-* Created a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all scraping and analysis tasks. 
+* Created a Jupyter Notebook file `mission_to_mars.ipynb` to complete all scraping and analysis tasks. 
 
 ### NASA Mars News
 
@@ -15,11 +15,7 @@ Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Req
 
 * Visit the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
 
-* Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
-
-* Make sure to find the image url to the full size `.jpg` image.
-
-* Make sure to save a complete url string for this image.
+* Used splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
 
 ### Mars Weather
 
@@ -52,6 +48,6 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
   * Store the return value in Mongo as a Python dictionary.
 
-* Created a root route `/` that will query your Mongo database and pass the mars data into an HTML template to display the data.
+* Created a root route `/` that will query a Mongo database and pass the mars data into an HTML template to display the data.
 
 * Created a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements. 
